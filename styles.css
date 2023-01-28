@@ -5,6 +5,98 @@
 body {
   margin: 0;
   background-color: rgb(241, 241, 241);
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 700;
+}
+
+h1 {
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+  font-size: 75px;
+}
+
+#info {
+  border: 1px solid rgb(177, 175, 175);
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(177, 175, 175);
+  margin: auto;
+  max-width: 850px;
+  max-height: 450px;
+  padding-bottom: 3%;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(space-photo.jpg);
+  width: 100%;
+  max-width: 850px;
+  max-height: 450px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+#centered {
+  position: relative;
+  text-align:center;
+  color: white;
+}
+
+.Social-Media {
+  /* top margin, side margins, line spacing and paragraph spacing */
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 250px;
+}
+
+.Social-Media p {
+  margin: 5px 0;
+  color: rgb(71, 71, 71);
+}
+
+.Office-Info {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 250px;
+}
+
+.Office-Info p {
+  margin: 5px 0;
+  color: rgb(71, 71, 71);
+}
+
+.Contact-Us {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.Contact-Us label {
+  color: rgb(71, 71, 71);
+}
+
+.Contact-Us form {
+  width: 250px;
+}
+
+label {
+  display: block;
+}
+
+#name {
+  width: 200px;
+}
+
+#message {
+  width: 200px;
+  height: 50px;
 }
